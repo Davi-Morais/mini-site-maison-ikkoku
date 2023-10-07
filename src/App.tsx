@@ -1,5 +1,6 @@
 import Menu from './components/Menu'
 import Character from './components/Character'
+import Footer from './components/Footer'
 
 import './App.css'
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Menu />
+
       <main className='conteiner'>
         <Character name='Karirin' image='/characters/kyoko.jpg' />
         <Character name='Godai' image='/characters/godai.jpg' />
@@ -19,6 +21,8 @@ function App() {
         <Character name='Yagami' image='/characters/yagami.jpg' />
         <Character name='Kujou' image='/characters/kujou.jpg' />
       </main>
+
+      <Footer />
     </>
    )
 }
