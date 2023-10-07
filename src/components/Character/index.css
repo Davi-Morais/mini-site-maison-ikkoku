@@ -1,0 +1,14 @@
+.character {
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+
+    font-family: monospace;
+    font-size: large;
+
+    margin: 10px 30px 10px 30px;
+}
+
+.character img {
+    width: 150px;
+}
